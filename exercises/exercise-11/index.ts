@@ -151,3 +151,6 @@ console.log();
 
 console.log(chalk.yellow('Average admin age:'));
 console.log(` - ${chalk.red(String(getAverageValue(admins, ({age}: Admin) => age)))} years`);
+
+
+
